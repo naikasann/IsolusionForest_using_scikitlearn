@@ -1,0 +1,19 @@
+normal      : C:\Users\yamazaki\Desktop\IsolutionForest\Book1_normal.csv
+outlier     : C:\Users\yamazaki\Desktop\IsolutionForest\Book1_outier.csv
+K_fold      : 5
+data_number : 6
+data_detail :
+  - right_striketime
+  - right_standtime
+  - right_toetime
+  - right_swingtime
+  - left_striketime
+  - left_standtime
+  - left_toetime
+  - left_swingtime
+  - bothfoot_time(right)
+  - bothfoot_time(left)
+
+result:
+  graphviz_path : C:\graphviz-2.38\bin\dot.exe
+  trees         : 10
